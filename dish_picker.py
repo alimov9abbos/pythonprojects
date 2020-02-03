@@ -38,9 +38,9 @@ if day_today=='Thursday':
     print ('\nTodays meal will be ' +entree_list[1]+ '.\n'+'There will be no side. With a salad of '+salad_list[3]+'. Bon apetit!')
 
 if day_today in week_day:
-    sample_dish=random.choice[entree_list]
-    sample_salad=random.choice[salad_list]
-    sample_side=random.choice[salad_list]
+    sample_dish=random.choice(entree_list)
+    sample_salad=random.choice(salad_list)
+    sample_side=random.choice(salad_list)
     
     print("Today's meal will consist of "+sample_dish +" with a side of "+ sample_side+".")
     print("Today's salad will be "+ sample_salad+".")
