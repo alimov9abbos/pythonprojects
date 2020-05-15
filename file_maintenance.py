@@ -19,7 +19,7 @@ print("This script is meant for all users who aren't hygienic about their Downlo
 print('This script will create a folder on your desktop labeled as "ORGANIZEME" \n '
       'The script will then move files older than a week into this folder.')
 
-x = input("Welcome to Abbos' Maintenance Script. If you wish to run the scrip please hit enter!")
+x = input("Welcome to Abbos' Maintenance Script. If you wish to run the script please hit enter!")
 
 
 # Desktop User path
